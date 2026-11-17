@@ -1,0 +1,104 @@
+{
+  "profile": "Local Chromium and API, configured remote Supabase database, fresh context per navigation, external image and font requests blocked, one warm-up then ten measurements per version",
+  "baselineCommit": "1708fac03662a3272b269dfac6cc4e9834c2dfce",
+  "before": {
+    "count": 24,
+    "digest": "5c3ca46e285bfce0c7cb35c38575cb54804ecac6422cb09229ae5d556cc2c1a1",
+    "samples": [
+      {
+        "apiMs": 10988.5,
+        "cardsMs": 12814.90000000596
+      },
+      {
+        "apiMs": 10680.300000011921,
+        "cardsMs": 12466.300000011921
+      },
+      {
+        "apiMs": 10367.5,
+        "cardsMs": 12136
+      },
+      {
+        "apiMs": 10369.300000011921,
+        "cardsMs": 12301.899999976158
+      },
+      {
+        "apiMs": 10401.199999988079,
+        "cardsMs": 12210.300000011921
+      },
+      {
+        "apiMs": 10751,
+        "cardsMs": 12598.700000017881
+      },
+      {
+        "apiMs": 10833.700000017881,
+        "cardsMs": 12608.90000000596
+      },
+      {
+        "apiMs": 10738.199999988079,
+        "cardsMs": 12525.59999999404
+      },
+      {
+        "apiMs": 10431.09999999404,
+        "cardsMs": 12226
+      },
+      {
+        "apiMs": 10730.699999988079,
+        "cardsMs": 12831.59999999404
+      }
+    ],
+    "medianMs": {
+      "apiMs": 10705.5,
+      "cardsMs": 12495.95
+    }
+  },
+  "after": {
+    "count": 24,
+    "digest": "5c3ca46e285bfce0c7cb35c38575cb54804ecac6422cb09229ae5d556cc2c1a1",
+    "samples": [
+      {
+        "apiMs": 871.6999999880791,
+        "cardsMs": 2507.600000023842
+      },
+      {
+        "apiMs": 887.8999999761581,
+        "cardsMs": 2549.5
+      },
+      {
+        "apiMs": 1057.5999999940395,
+        "cardsMs": 2731.300000011921
+      },
+      {
+        "apiMs": 887.0999999940395,
+        "cardsMs": 2477.100000023842
+      },
+      {
+        "apiMs": 1292.8999999761581,
+        "cardsMs": 2925.5
+      },
+      {
+        "apiMs": 863.7000000178814,
+        "cardsMs": 2434.2000000178814
+      },
+      {
+        "apiMs": 940.9000000059605,
+        "cardsMs": 2593.7000000178814
+      },
+      {
+        "apiMs": 869.0999999940395,
+        "cardsMs": 2480.300000011921
+      },
+      {
+        "apiMs": 873,
+        "cardsMs": 2641.800000011921
+      },
+      {
+        "apiMs": 1009.5,
+        "cardsMs": 2678.2999999821186
+      }
+    ],
+    "medianMs": {
+      "apiMs": 887.5,
+      "cardsMs": 2571.6
+    }
+  }
+}

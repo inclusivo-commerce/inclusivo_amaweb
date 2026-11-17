@@ -1,0 +1,103 @@
+{
+  "profile": "Local Chromium, 1440x900, PostgreSQL, 100 products, 5 sellers, placeholder images, fresh browser context per navigation, one warm-up excluded per phase",
+  "before": {
+    "count": 100,
+    "digest": "6887ca014c460132cd7eec6bf649ecb9f3c853cf7912d8afa793a0e805cccb9a",
+    "samples": [
+      {
+        "apiMs": 402.7999999821186,
+        "cardsMs": 1922.0999999940395
+      },
+      {
+        "apiMs": 470.2000000178814,
+        "cardsMs": 2214.2999999821186
+      },
+      {
+        "apiMs": 458.09999999403954,
+        "cardsMs": 2201.699999988079
+      },
+      {
+        "apiMs": 403.80000001192093,
+        "cardsMs": 1924
+      },
+      {
+        "apiMs": 403.30000001192093,
+        "cardsMs": 2149.2999999821186
+      },
+      {
+        "apiMs": 396.40000000596046,
+        "cardsMs": 2084.300000011921
+      },
+      {
+        "apiMs": 355.90000000596046,
+        "cardsMs": 2133.2999999821186
+      },
+      {
+        "apiMs": 361.90000000596046,
+        "cardsMs": 2105.2000000178814
+      },
+      {
+        "apiMs": 411.59999999403954,
+        "cardsMs": 2060.5
+      },
+      {
+        "apiMs": 591.8000000119209,
+        "cardsMs": 2831.7999999821186
+      }
+    ],
+    "medianMs": {
+      "apiMs": 403.55,
+      "cardsMs": 2119.25
+    }
+  },
+  "after": {
+    "count": 100,
+    "digest": "6887ca014c460132cd7eec6bf649ecb9f3c853cf7912d8afa793a0e805cccb9a",
+    "samples": [
+      {
+        "apiMs": 53.400000005960464,
+        "cardsMs": 2088.5
+      },
+      {
+        "apiMs": 46.79999998211861,
+        "cardsMs": 1872.1000000238419
+      },
+      {
+        "apiMs": 46.39999997615814,
+        "cardsMs": 2258.5999999940395
+      },
+      {
+        "apiMs": 35.70000001788139,
+        "cardsMs": 1795.5
+      },
+      {
+        "apiMs": 33.60000002384186,
+        "cardsMs": 1688.0999999940395
+      },
+      {
+        "apiMs": 44.39999997615814,
+        "cardsMs": 1815.4000000059605
+      },
+      {
+        "apiMs": 49.900000005960464,
+        "cardsMs": 1985
+      },
+      {
+        "apiMs": 82.40000000596046,
+        "cardsMs": 1838.4000000059605
+      },
+      {
+        "apiMs": 33.29999998211861,
+        "cardsMs": 2181.4000000059605
+      },
+      {
+        "apiMs": 30.200000017881393,
+        "cardsMs": 2075.2000000178814
+      }
+    ],
+    "medianMs": {
+      "apiMs": 45.4,
+      "cardsMs": 1928.55
+    }
+  }
+}
